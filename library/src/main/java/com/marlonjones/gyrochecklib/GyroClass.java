@@ -24,6 +24,7 @@ public abstract class GyroClass extends LinearLayout implements SensorEventListe
         super(current);
         this.context = current;
         context.getResources().getLayout(R.layout.text);
+        inflate(context, R.layout.text, this);
         sensorManager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
 
