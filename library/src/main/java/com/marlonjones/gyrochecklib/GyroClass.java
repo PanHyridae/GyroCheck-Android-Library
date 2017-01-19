@@ -4,6 +4,7 @@ import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
@@ -11,7 +12,7 @@ import android.widget.TextView;
  github.com/MJonesDev
  */
 
-public abstract class GyroClass implements SensorEventListener {
+public abstract class GyroClass extends LinearLayout implements SensorEventListener {
     private Context context;
     TextView textX, textY, textZ;
     SensorManager sensorManager;
@@ -19,8 +20,15 @@ public abstract class GyroClass implements SensorEventListener {
 
 
     public GyroClass(Context current){
+        super(current);
         this.context = current;
         context.getResources().getLayout(R.layout.text);
+        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
+
+        textX = (TextView) findViewById(R.id.TextX);
+        textY = (TextView) findViewById(R.id.TextY);
+        textZ = (TextView) findViewById(R.id.TextZ);
     }
 
 }
