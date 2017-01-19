@@ -8,7 +8,7 @@ import android.hardware.SensorEventListener;
  github.com/MJonesDev
  */
 
-public class GyroClass implements SensorEventListener {
+public abstract class GyroClass implements SensorEventListener {
     private Context context;
 
 }
