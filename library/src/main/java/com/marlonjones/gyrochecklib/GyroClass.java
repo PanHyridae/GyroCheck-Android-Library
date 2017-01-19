@@ -17,4 +17,10 @@ public abstract class GyroClass implements SensorEventListener {
     SensorManager sensorManager;
     Sensor sensor;
 
+
+    public GyroClass(Context current){
+        this.context = current;
+        context.getResources().getLayout(R.layout.text);
+    }
+
 }
