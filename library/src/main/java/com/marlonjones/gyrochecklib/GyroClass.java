@@ -37,16 +37,21 @@ public abstract class GyroClass extends LinearLayout implements SensorEventListe
 
 
     public SensorEventListener gyroListener = new SensorEventListener() {
-        public void onAccuracyChanged(Sensor sensor, int acc) { }
 
-        public void onSensorChanged(SensorEvent event) {
-            float x = event.values[0];
-            float y = event.values[1];
-            float z = event.values[2];
+        @Override
+        public void onSensorChanged(SensorEvent sensorEvent) {
+            float x = sensorEvent.values[0];
+            float y = sensorEvent.values[1];
+            float z = sensorEvent.values[2];
 
             textX.setText("X : " + (int)x + " rad/s");
             textY.setText("Y : " + (int)y + " rad/s");
             textZ.setText("Z : " + (int)z + " rad/s");
+        }
+
+        @Override
+        public void onAccuracyChanged(Sensor sensor, int i) {
+
         }
     };
 }
