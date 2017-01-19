@@ -21,18 +21,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        GyroClass gyro = new GyroClass(getApplicationContext()) {
-            @Override
-            public void onSensorChanged(SensorEvent sensorEvent) {
-
-            }
-
-            @Override
-            public void onAccuracyChanged(Sensor sensor, int i) {
-
-            }
-            inflate();
-        };
+        GyroClass gyro = new GyroClass(getApplicationContext());
+        setContentView(gyro);
 
     }
 }
