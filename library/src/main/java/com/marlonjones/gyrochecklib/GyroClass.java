@@ -13,7 +13,7 @@ import android.widget.TextView;
  github.com/MJonesDev
  */
 
-public abstract class GyroClass extends LinearLayout implements SensorEventListener {
+public class GyroClass extends LinearLayout {
      Context context;
     TextView textX, textY, textZ;
      SensorManager sensorManager;
