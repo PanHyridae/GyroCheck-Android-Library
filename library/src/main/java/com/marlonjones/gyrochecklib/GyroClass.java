@@ -13,9 +13,9 @@ import android.widget.TextView;
  */
 
 public abstract class GyroClass extends LinearLayout implements SensorEventListener {
-    private Context context;
+     Context context;
     TextView textX, textY, textZ;
-    SensorManager sensorManager;
+     SensorManager sensorManager;
     Sensor sensor;
 
 
@@ -23,7 +23,7 @@ public abstract class GyroClass extends LinearLayout implements SensorEventListe
         super(current);
         this.context = current;
         context.getResources().getLayout(R.layout.text);
-        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensorManager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
 
         textX = (TextView) findViewById(R.id.TextX);
