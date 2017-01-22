@@ -7,6 +7,7 @@ The minimum SDK that this can be used with is SDK 16.
 
 ##Use
 In order to use this, you must use the Gyroscope feature. You do this by adding this to your Android Manifest:
+
 ```` <uses-feature android:name="android.hardware.sensor.gyroscope" />````
 
 After adding this, in your activity's OnCreate, call ````GyroCheck.addTo(this);````
