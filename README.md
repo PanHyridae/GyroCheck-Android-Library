@@ -20,7 +20,7 @@ if (BuildConfig.DEBUG) {
 }
 ````
 ##Credits
-This app uses code based off of code from <a href = "https://github.com/akexorcist/Android-Sensor-Gyroscope">>Akexorcist</a> and 
+This app uses code based off of code from <a href = "https://github.com/akexorcist/Android-Sensor-Gyroscope">Akexorcist</a> and 
 their YouTube video. Also huge thanks to <a href="https://github.com/TheAndroidMaster">James Fenn</a> for helping out on this. 
 
 ##License
