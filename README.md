@@ -8,8 +8,8 @@ If the numbers are always at 0 and never change, then it your device does not ha
 The minimum SDK that this can be used with is SDK 14.
 
 ##Use
-Right now, you will need to download the .aar file from the releases tab to use this library. Soon, a jCenter link will
-be available to make things easier.
+Right now, you will need to download the .aar file from the releases tab and add compile project````(":library")```` to use this library. Soon, a jCenter link will
+be available to make things easier. 
 
 In order to use this, you must use the Gyroscope feature. You do this by adding this to your Android Manifest:
 
