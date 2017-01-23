@@ -18,9 +18,9 @@ import android.widget.TextView;
 public class GyroView extends FrameLayout implements SensorEventListener {
 
     Context context;
-    TextView textX, textY, textZ;
+    TextView textX, textY, textZ, TextXOR, TextYOR, TextZOR, TextXA,TextYA, TextZA;
     SensorManager sensorManager;
-    Sensor sensor;
+    Sensor sensor, sensor2, sensor3;
 
     public GyroView(Context context) {
         super(context);
@@ -33,11 +33,9 @@ public class GyroView extends FrameLayout implements SensorEventListener {
 
         sensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
-
         textX = (TextView) findViewById(R.id.TextX);
         textY = (TextView) findViewById(R.id.TextY);
         textZ = (TextView) findViewById(R.id.TextZ);
-
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
     }
 

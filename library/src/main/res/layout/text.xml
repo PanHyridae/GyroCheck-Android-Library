@@ -2,11 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_gravity="top|start"
+    android:layout_gravity="bottom|start"
     android:background="#5CFFFFFF"
     android:orientation="vertical"
     android:padding="16dp">
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="@string/Gyroscope"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"/>
     <TextView
         android:id="@+id/TextX"
         android:layout_width="match_parent"
