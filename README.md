@@ -6,8 +6,9 @@ the Gyroscope, in order to make sure that it is working properly. When the phone
 available, then the numbers will change between negative and positive integers, and will reset to 0 when the device is still. 
 If the numbers are always at 0 and never change, then it your device does not have a gyroscope or it is defective. 
 The minimum SDK that this can be used with is SDK 14.
-##Example
-![alt tag](https://github.com/MJonesDev/GyroCheck/blob/master/gyrogif.gif)
+<p align="right">
+  <img src="https://github.com/MJonesDev/GyroCheck/blob/master/gyrogif.gif">
+</p>
 ##Add In via jCenter
 Coming Soon - Waiting to be published
 ##Add In via AAR File
