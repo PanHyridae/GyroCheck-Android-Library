@@ -7,7 +7,7 @@ available, then the numbers will change between negative and positive integers, 
 If the numbers are always at 0 and never change, then it your device does not have a gyroscope or it is defective. 
 The minimum SDK that this can be used with is SDK 14.
 <p align="center">
-  <img src="https://github.com/MJonesDev/GyroCheck/blob/master/gyrogif.gif">
+  <img src="https://github.com/MJonesDev/GyroCheck/blob/master/example.gif">
   </p>
 
 ##Add In via jCenter
