@@ -37,6 +37,7 @@ public class GyroView extends FrameLayout implements SensorEventListener {
         textY = (TextView) findViewById(R.id.TextY);
         textZ = (TextView) findViewById(R.id.TextZ);
         sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
+
     }
 
     @Override
@@ -54,4 +55,5 @@ public class GyroView extends FrameLayout implements SensorEventListener {
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
+
 }
