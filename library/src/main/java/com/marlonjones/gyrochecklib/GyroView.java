@@ -11,7 +11,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 /**
- * Created by Marlon Jones (@MJonesDev on 1/19/2017.
+ * Created by Marlon Jones (@MJonesDev) on 1/19/2017.
  * github.com/MJonesDev
  */
 
@@ -32,7 +32,7 @@ public class GyroView extends FrameLayout implements SensorEventListener {
         addView(v);
 
         sensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
-        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
+        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
 
         textX = (TextView) findViewById(R.id.TextX);
         textY = (TextView) findViewById(R.id.TextY);
