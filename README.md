@@ -1,15 +1,17 @@
 # Gyro Check
-Gyro Check is a simple Android Library that will show your gyroscope's X, Y, and Z measurments in Radians.
+Gyro Check is a simple Android Library that will show your Gyroscope's X, Y, and Z stats in the 
+bottom of your activity.
 This can be used with apps and games (and soon on Android's VR platforms: Google Cardboard and Google Daydream) that use 
 the Gyroscope, in order to make sure that it is working properly. (JCenter/Maven link coming soon. For now, to use this, download the
 .aar file or clone the repository and use the library module.)
 
-The minimum SDK that this can be used with is SDK 16.
+The minimum SDK that this can be used with is SDK 14.
 
 ##Use
 In order to use this, you must use the Gyroscope feature. You do this by adding this to your Android Manifest:
 
 ```` <uses-feature android:name="android.hardware.sensor.gyroscope" />````
+````<uses-feature android:name="android.hardware.senor.accelerometer/>````
 
 After adding this, in your activity's OnCreate, call ````GyroCheck.addTo(this);````
 
