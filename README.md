@@ -11,6 +11,7 @@ The minimum SDK that this can be used with is SDK 14.
 In order to use this, you must use the Gyroscope feature. You do this by adding this to your Android Manifest:
 
 ```` <uses-feature android:name="android.hardware.sensor.gyroscope" />````
+````<uses-feature android:name="android.hardware.senor.accelerometer/>````
 
 After adding this, in your activity's OnCreate, call ````GyroCheck.addTo(this);````
 
