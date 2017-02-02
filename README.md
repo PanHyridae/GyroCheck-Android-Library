@@ -10,7 +10,7 @@ The minimum SDK that this can be used with is SDK 14 (Android 4.0 Ice Cream Sand
   <img src="https://github.com/MJonesDev/GyroCheck/blob/master/example.gif">
   </p>
 
-##Add in via Maven
+##Add in via Maven (Gradle)
 First, in your Project's Gradle File, add ````maven { url  "http://dl.bintray.com/mjonesdev/Libraries" }```` as a repository.
 Then, in your Module's Gradle File, add ````compile 'com.marlonjones.library:GyroCheck:1.0' ```` as a dependency. 
 ##Add in via jCenter
