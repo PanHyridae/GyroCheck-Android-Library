@@ -4,13 +4,19 @@ bottom of your activity.
 This can be used with apps and games (and soon on Android's VR platforms: Google Cardboard and Google Daydream) that use 
 the Gyroscope, in order to make sure that it is working properly. When the phone is in movement and has a GyroScope that is
 available, then the numbers will change between negative and positive integers, and will reset to 0 when the device is still. 
-If the numbers are always at 0 and never change, then it your device does not have a gyroscope or it is defective. 
-The minimum SDK that this can be used with is SDK 14.
+If the numbers are always at 0 and never change, then your device does not have a gyroscope or it is defective. 
+The minimum SDK that this can be used with is SDK 14 (Android 4.0 Ice Cream Sandwich).
+<p align="center">
+  <img src="https://github.com/MJonesDev/GyroCheck/blob/master/example.gif">
+  </p>
 
+##Add In via jCenter
+Coming Soon - Waiting to be published
+##Add In via AAR File
+First, download the aar file that can be found in the releases tab, and add it to your libs folder. 
+Next, in your project's build.gradle file, add ````flatDir { dirs 'libs'}```` as a repository, and then add 
+````compile(name:'gyrocheck', ext:'aar')```` to your app's module. 
 ##Use
-Right now, you will need to download the .aar file from the releases tab to use this library. Soon, a jCenter link will
-be available to make things easier.
-
 In order to use this, you must use the Gyroscope feature. You do this by adding this to your Android Manifest:
 
 ```` <uses-feature android:name="android.hardware.sensor.gyroscope" />````
@@ -27,9 +33,7 @@ if (BuildConfig.DEBUG) {
 ##Credits
 This app uses code based off of code from <a href = "https://github.com/akexorcist/Android-Sensor-Gyroscope">Akexorcist</a> and 
 their YouTube video. Also huge thanks to <a href="https://github.com/TheAndroidMaster">James Fenn</a> for helping out on this. 
-##Example
-![alt tag](https://github.com/MJonesDev/GyroCheck/blob/master/gyrogif.gif)
-##License
+##License (Apache 2.0)
 ````
    Copyright 2017 Marlon Jones
 
