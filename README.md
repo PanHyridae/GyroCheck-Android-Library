@@ -10,12 +10,16 @@ The minimum SDK that this can be used with is SDK 14 (Android 4.0 Ice Cream Sand
   <img src="https://github.com/MJonesDev/GyroCheck/blob/master/example.gif">
   </p>
 
-##Add in via Maven (Gradle)
-First, in your Project's Gradle File, add ````maven { url  "http://dl.bintray.com/mjonesdev/Libraries" }```` as a repository.
-Then, in your Module's Gradle File, add ````compile 'com.marlonjones.library:GyroCheck:1.0' ```` as a dependency. 
-##Add in via jCenter
-Coming Soon - Waiting to be accepted
-##Add In via AAR File
+##Gradle Dependency 
+The Gradle dependency is available in <a href="https://bintray.com/mjonesdev/Libraries/GyroCheck">jCenter</a>, which is the default Repository that Android Studio uses. 
+So to get started, Just add the dependency into your Gradle file. 
+
+```gradle
+dependencies {
+	// ... other dependencies here
+    compile 'com.marlonjones.library:GyroCheck:1.0''
+}
+```
 
 ##Use
 In order to use this, you must use the Gyroscope feature. You do this by adding this to your Android Manifest:
