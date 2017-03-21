@@ -13,14 +13,15 @@ import android.widget.TextView;
 /**
  * Created by Marlon Jones (@MJonesDev) on 1/19/2017.
  * github.com/MJonesDev
+ * This library is based on an example from Akexorcist on GitHub.
  */
 
 public class GyroView extends FrameLayout implements SensorEventListener {
 
     Context context;
-    TextView textX, textY, textZ, TextXOR, TextYOR, TextZOR, TextXA,TextYA, TextZA;
+    TextView textX, textY, textZ;
     SensorManager sensorManager;
-    Sensor sensor, sensor2, sensor3;
+    Sensor sensor;
 
     public GyroView(Context context) {
         super(context);
