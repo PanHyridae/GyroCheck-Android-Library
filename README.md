@@ -10,7 +10,7 @@ The minimum SDK that this can be used with is SDK 14 (Android 4.0 Ice Cream Sand
   <img src="https://github.com/MJonesDev/GyroCheck/blob/master/example.gif">
   </p>
 
-##Gradle Dependency 
+## Gradle Dependency 
 The Gradle dependency is available in <a href="https://bintray.com/mjonesdev/Libraries/GyroCheck">jCenter</a>, which is the default Repository that Android Studio uses. 
 So to get started, Just add the dependency into your Gradle file. 
 
@@ -21,7 +21,7 @@ dependencies {
 }
 ```
 
-##Use
+## Use
 In order to use this, you must use the Gyroscope feature. You do this by adding this to your Android Manifest:
 
 ```` <uses-feature android:name="android.hardware.sensor.gyroscope" />````
@@ -35,10 +35,10 @@ if (BuildConfig.DEBUG) {
   GyroCheck.addTo(this);
 }
 ````
-##Credits
+## Credits
 This app uses code based off of code from <a href = "https://github.com/akexorcist/Android-Sensor-Gyroscope">Akexorcist</a> and 
 their YouTube video. Also huge thanks to <a href="https://github.com/TheAndroidMaster">James Fenn</a> for helping out on this. 
-##License (Apache 2.0)
+## License (Apache 2.0)
 ````
    Copyright 2017 Marlon Jones
 
