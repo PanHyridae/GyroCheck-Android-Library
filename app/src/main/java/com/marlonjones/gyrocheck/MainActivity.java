@@ -17,17 +17,20 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /**BuildConfig.DEBUG - If the app is in DEBUG mode, it will show the library**/
+        /**
+         * GyroCheck.addTo(this); - Adds the GyroCheck library to your current view.
+         * BuildConfig.DEBUG - If the app is in DEBUG mode, it will show the library.
+         **/
 
         if (BuildConfig.DEBUG) {
             GyroCheck.addTo(this);
         }
         else {
             GyroCheck.addTo(this);
-            /** This is the standard use of the Library, which can be used
-             * even if the app is not in Debug Mode. This is
-             just added in this case so the sample can show it in both debug and
-             standard modes. **/
+            /**
+             * Without using BuildConfig.DEBUG, the library will be shown
+             * in the view you put it in, no matter the build type.
+             **/
         }
     }
 }
