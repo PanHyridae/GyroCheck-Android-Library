@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         }
         else {
             GyroCheck.addTo(this);
-            /** This is the standard use of the Library. This is
+            /** This is the standard use of the Library, which can be used
+             * even if the app is not in Debug Mode. This is
              just added in this case so the sample can show it in both debug and
              standard modes. **/
         }
