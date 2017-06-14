@@ -1,4 +1,25 @@
 <resources>
     <string name="app_name">GyroCheck</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">About</string>
+    <!--Dialog Strings and Buttons-->
+    <string name="opening_title">Please Note</string>
+    <string name="opening">This is a sample app intended for developers of Android apps and games
+    intending to use the GyroCheck Library.</string>
+    <string name="ok">OK</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="lib_desc">GyroCheck is a simple Library that will allow a developer to easily
+    test for proper Gyroscope functions in their app. When placed into the target Java file,
+    the library will display the Gyroscope stats in the bottom right hand corner of the activity,
+    and will change as the phone is rotated. This can be used to check if the Gyroscope is
+    working properly. For suggestions or any issues, visit github.com/MJonesDev/GyroCheck.</string>
+
+    <string name="about_body"><![CDATA[
+        GyroCheck, a library developed by <b>Marlon Jones</b>.<br/>
+        <a href=\'http://mjonesdev.github.io\'>Website</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/mjonesdev\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+MarlonJones\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/mjonesdev\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://dribbble.com/MJonesDev\'>Dribbble</a>&nbsp;&nbsp
+        <a href=\'https://www.linkedin.com/in/MJonesDev\'>LinkedIn</a>
+    ]]></string>
 </resources>

@@ -3,17 +3,17 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'com.marlonjones.library'
     PUBLISH_ARTIFACT_ID = 'GyroCheck'
-    PUBLISH_VERSION = '1.0.1'
+    PUBLISH_VERSION = '1.0.2'
 }
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.3"
 
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 1
+        versionCode 2
         versionName "1.0.2"
     }
     buildTypes {
@@ -27,6 +27,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.3.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
 }
 apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
+//TODO - Update to API 26 for Android O, when needed or if needed at all.
