@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v4.*;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.text.Spanned;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -52,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.action_settings) {
             new MaterialDialog.Builder(this)
                     .title(R.string.action_settings)
-                    .content(R.string.about_body)
+                    .content(Html.fromHtml(getString(R.string.about_body)))
                     .positiveText(R.string.dismiss)
                     .show();
             return true;
