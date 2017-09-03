@@ -1,4 +1,4 @@
-# Gyro Check
+# Gyro Check for Android
 Gyro Check is a simple Android Library that will show your Gyroscope's X, Y, and Z stats in the 
 bottom of your activity.
 This can be used with apps and games (and soon on Android's VR platforms: Google Cardboard and Google Daydream) that use 
