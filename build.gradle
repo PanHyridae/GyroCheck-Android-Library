@@ -5,6 +5,7 @@ buildscript {
         mavenLocal()
         mavenCentral()
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots/'}
+        maven { url 'https://maven.google.com' }
         jcenter()
     }
     dependencies {
@@ -25,6 +26,7 @@ allprojects {
         mavenCentral()
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
         //maven { url  "http://dl.bintray.com/mjonesdev/Libraries" }
+        maven { url 'https://maven.google.com' }
         jcenter()
     }
 }
