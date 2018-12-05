@@ -7,7 +7,7 @@ available, then the numbers will change between negative and positive integers, 
 If the numbers are always at 0 and never change, then your device does not have a gyroscope or it is defective. 
 The minimum SDK that this can be used with is SDK 14 (Android 4.0 Ice Cream Sandwich).
 <p align="center">
-  <img src="https://github.com/MJonesDev/GyroCheck/blob/master/example.gif">
+  <img src="https://github.com/pancodemakes/GyroCheck/blob/master/example.gif">
   </p>
 
 ## Gradle Dependency 
@@ -37,7 +37,7 @@ if (BuildConfig.DEBUG) {
 ````
 ## Credits
 This library uses code based off of code from <a href = "https://github.com/akexorcist/Android-Sensor-Gyroscope">Akexorcist</a> and 
-their YouTube video. Also huge thanks to <a href="https://github.com/TheAndroidMaster">James Fenn</a> for helping out on this. 
+their YouTube video and their original project. I used this code with modifications as I felt that it could be used for testing games, apps, and ROMs. Also huge thanks to <a href="https://github.com/TheAndroidMaster">James Fenn</a> for helping out on this. 
 ## License (Apache 2.0)
 ````
    Copyright 2017 Marlon Jones
