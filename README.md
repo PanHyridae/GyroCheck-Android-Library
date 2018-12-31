@@ -17,7 +17,7 @@ So to get started, Just add the dependency into your Gradle file.
 ```gradle
 dependencies {
 	// ... other dependencies here
-    compile 'com.marlonjones.library:GyroCheck:1.0.1'
+    compile 'com.marlonjones.library:GyroCheck:1.0.5'
 }
 ```
 
