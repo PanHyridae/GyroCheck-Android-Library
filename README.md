@@ -7,7 +7,7 @@ available, then the numbers will change between negative and positive integers, 
 If the numbers are always at 0 and never change, then your device does not have a gyroscope or it is defective. 
 The minimum SDK that this can be used with is SDK 14 (Android 4.0 Ice Cream Sandwich).
 <p align="center">
-  <img src="https://github.com/pancodemakes/GyroCheck/blob/master/example.gif">
+  <img src="https://github.com/pancodemakes/GyroCheck-Android-Library/blob/master/example.gif">
   </p>
 
 ## Gradle Dependency 
