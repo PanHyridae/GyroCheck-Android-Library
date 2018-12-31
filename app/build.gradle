@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.marlonjones.gyrocheck"
-        minSdkVersion 14
-        targetSdkVersion 26
-        versionCode 2
-        versionName "1.0.2"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 4
+        versionName "1.0.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -24,11 +24,11 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:26.0.0-beta2'
-    compile 'com.android.support:cardview-v7:26.0.0-beta2'
-    compile 'com.android.support:design:26.0.0-beta2'
+    compile 'com.android.support:appcompat-v7:28.0.0'
+    compile 'com.android.support:cardview-v7:28.0.0'
+    compile 'com.android.support:design:28.0.0'
     compile 'com.marlonjones.library:GyroCheck:1.0.1' //Dependency for Library
-    compile 'com.afollestad.material-dialogs:core:0.9.4.5' //Aidan's Library
+    compile 'com.afollestad.material-dialogs:core:2.0.0-rc5' //From afollestad
     testCompile 'junit:junit:4.12'
 
 }
