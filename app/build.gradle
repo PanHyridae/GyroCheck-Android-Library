@@ -7,8 +7,8 @@ android {
         applicationId "com.marlonjones.gyrocheck"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 4
-        versionName "1.0.5"
+        versionCode 5
+        versionName "1.0.6 - SAMPLE"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -27,7 +27,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:28.0.0'
     compile 'com.android.support:cardview-v7:28.0.0'
     compile 'com.android.support:design:28.0.0'
-    compile 'com.marlonjones.library:GyroCheck:1.0.1' //Dependency for Library
     compile 'com.afollestad.material-dialogs:core:2.0.0-rc5' //From afollestad
     testCompile 'junit:junit:4.12'
 
