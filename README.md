@@ -5,7 +5,7 @@ This can be used with apps and games (and soon on Android's VR platforms: Google
 the Gyroscope, in order to make sure that it is working properly. When the phone is in movement and has a GyroScope that is
 available, then the numbers will change between negative and positive integers, and will reset to 0 when the device is still. 
 If the numbers are always at 0 and never change, then your device does not have a gyroscope or it is defective. 
-The minimum SDK that this can be used with is SDK 14 (Android 4.0 Ice Cream Sandwich).
+The minimum SDK that this can be used with is SDK 16. Note that this library will also have some Kotlin code written for it to make the experience of using it a little bit better. This will be added in version 1.0.8. 
 <p align="center">
   <img src="https://github.com/pancodemakes/GyroCheck-Android-Library/blob/master/example.gif">
   </p>
