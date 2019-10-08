@@ -8,7 +8,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.4.2'
         classpath 'com.novoda:bintray-release:0.9'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
 
@@ -26,6 +26,7 @@ allprojects {
         //maven { url  "http://dl.bintray.com/mjonesdev/Libraries" }
         maven { url 'https://maven.google.com' }
         jcenter()
+        google()
     }
 }
 
