@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        new MaterialDialog.Builder(this)
+        new MaterialDialog.Builder(this) //TODO - FIX BUILDER ERROR
                 .title(R.string.opening_title)
                 .content(R.string.opening)
                 .positiveText(R.string.ok)
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.action_settings) {
-            new MaterialDialog.Builder(this)
+            new MaterialDialog.Builder(this) //TODO - FIX BUILDER ERROR
                     .title(R.string.action_settings)
                     .content(Html.fromHtml(getString(R.string.about_body)))
                     .positiveText(R.string.dismiss)
