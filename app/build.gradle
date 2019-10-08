@@ -8,7 +8,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 5
-        versionName "1.0.6 - SAMPLE"
+        versionName "1.5 - SAMPLE"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -24,11 +24,11 @@ dependencies {
     androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'com.afollestad.material-dialogs:core:2.0.0-rc5' //From afollestad
-    testCompile 'junit:junit:4.12'
-    compile project(path: ':library')
+    testImplementation 'junit:junit:4.12'
+    implementation project(path: ':library')
 
 }
