@@ -11,8 +11,8 @@ The minimum SDK that this can be used with is SDK 16. Note that this library wil
   </p>
 
 ## Gradle Dependency 
-<b> NOTE: THIS IS BEING MIGRATED TO ANDROIDX AND WILL NOT WORK FOR THE TIME BEING DUE TO ERRORS. THIS WILL BE COMPLETED BY THE 
-	END OF DECEMBER 2019 </b>
+<b> NOTE: THIS IS BEING MIGRATED TO ANDROIDX AND WILL NOT WORK FOR THE TIME BEING DUE TO ERRORS. THERE IS NO ESTIMATED TIME 
+OF COMPLETION DUE TO WORK AND SCHOOL.</b>
 	
 The Gradle dependency is available in <a href="https://bintray.com/mjonesdev/Libraries/GyroCheck">jCenter</a>, which is the default Repository that Android Studio uses. 
 So to get started, Just add the dependency into your Gradle file. 
