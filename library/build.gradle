@@ -9,8 +9,8 @@ apply plugin: 'com.novoda.bintray-release'
 publish {
     userOrg = 'pancodemakes'
     groupId = 'com.pancodemakes'
-    artifactId = 'gyro-check-106'
-    publishVersion = '1.0.6'
+    artifactId = 'gyro-check-115'
+    publishVersion = '1.1.5'
     desc = 'Shows gyroscope stats in the corner of your device (Release ver: 1.0.6)'
     website = 'https://github.com/pancodemakes/GyroCheck-Android-Library'
 }
